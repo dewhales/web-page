@@ -1,0 +1,133 @@
+body {
+	background-color: #260d93;
+	background-image: url('Bgimg/eric-deschaintre-41m9vmdtnI4-unsplash.jpg');
+
+}
+#nav-table {
+	 border-collapse: collapse;
+	 width: 100%;
+	 text-align: left;
+	 height: 100px;
+	 background-color: #110252;
+	 box-shadow: 0px 4px 6px blue;
+	 color: white;
+}
+#head {
+	 width: 40%;
+	 font-size: 2.5rem;
+	 padding-left: 30px;
+	 letter-spacing: 6px;
+}
+.links {
+	width: 10%;
+	text-align: right;
+}
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20pt;
+}
+a:hover {
+	color: lightblue;
+	font-size: 22pt;
+}
+a:active {
+	color: green;
+}
+#search:hover {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
+#search2 {
+	 width: 100px;
+	 height: 70px;
+	 font-size: 15pt;
+	 color: blue;
+	 background-color: white;
+	 font-weight: bold;
+	 box-shadow: 0 0 30px blue;
+}
+#search2:hover {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
+.welcome {
+	 margin-top: 80px;
+	 background-color: #d7e6ec;
+	 clear: both;
+}
+#searcharea {
+	 width: 70%;
+	 height: 70px;
+	 font-size: 1.5rem;
+	 border: 0px solid darkblue;
+	 border-radius: 20px;
+	 box-shadow: 0px 0px 30px blue;
+	 padding-left: 20px;
+}
+article p {
+	color: pink;
+}
+footer {
+	color: darkblue;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	clear: both;
+}
+footer p {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+#login-form {
+	background-color: transparent;
+	width: 40%;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	float: right;
+}
+#register-form {
+	background-color: transparent;
+	width: 60%;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	float: left;
+}
+.table-form {
+	border-spacing: 20px;
+	width: 100%;
+}
+.input {
+	width: 100%;
+	height: 40px;
+	font-size: 15pt;
+}
+label {
+	font-size: 20pt;
+}
+.submit {
+	width: 150px;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	font-weight: bolder;
+	font-size: 15pt;
+	margin-left: 60%;
+}
+.submit:hover {
+	background-color: white;
+	color: blue;
+}
+small {
+	color: lightblue;
+	text-decoration: underline;
+	font-size: 12pt;
+}
+#terms {
+	font-size: 12pt;
+}

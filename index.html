@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<table id="nav-table">
+			<tr>
+				<th id="head">
+					Practice
+				</th>
+				<th title="home" class="links">
+					<a href="index.html">
+						Home
+					</a>
+				</th>
+				<th title="what we do" class="links">
+					<a href="#">
+						About
+					</a>
+				</th>
+				<th title="contact us" class="links">
+					<a href="#">
+						Contact
+					</a>
+				</th>
+				<th title="register here" class="links">
+					<a href="#register-form">
+						sign-up
+					</a>
+				</th>
+				<th title="login here" class="links">
+					<a href="#login-form">
+						sign-in
+					</a>
+				</th>
+			</tr>
+		</table>
+	</nav>
+
+	<div class="welcome">
+		<h2 title="you are welcome" style="letter-spacing: 4px; font-size: 2.5rem;">
+			<span style="color: green;">
+				Wel
+			</span>
+			<span style="color: red;">
+				come
+			</span>
+			<span style="font-size: 3rem; color: darkblue;">
+				!
+			</span>
+			<input title="search for keywords" id="searcharea" type="search" placeholder="search here..." name="search">
+			<button title="search in page" id="search2">
+				search
+			</button>
+		</h2>
+	</div>
+
+	<table width="100%" style="border-collapse: collapse; font-family: helvetica; margin: 20px;">
+		<tr>
+			<th colspan="3" style="font-size: 4rem; color: white; text-shadow: 0 0 40px black; padding-top: 80px;">
+				Front-End Development
+			</th>
+		</tr>
+		<tr>
+			<td>
+				<article style="width: 80%; font-size: 2rem; font-family: helvetica; padding: 20px; margin-top: 70px;">
+					<img src="img/html.png" style="float: left; width: 20%; height: 30%;">
+					<h2 title="HTML">
+						Hypertext Mark-Up Language
+					</h2>
+					<p style="font-size: 10pt; padding-left: 10px; color: lightgray; letter-spacing: 2px; word-spacing: 4px;">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</article>
+			</td>
+			<td>
+				<article style="width: 80%; font-size: 2rem; font-family: helvetica; padding: 20px;">
+					<img src="img/css.png" style="float: left; width: 20%; height: 30%;">
+					<h2 title="CSS">
+						Cascading Style Sheet
+					</h2>
+					<p style="font-size: 10pt; padding-left: 10px; color: lightgray; letter-spacing: 2px; word-spacing: 4px;">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</article>
+			</td>
+			<td>
+				<article style="width: 80%; font-size: 2rem; font-family: helvetica; padding: 20px;">
+					<img src="img/javascript.png" style="float: left; width: 20%; height: 30%;">
+					<h2 title="JS">
+						JavaScript
+					</h2>
+					<p style="font-size: 10pt; padding-left: 10px; color: lightgray; letter-spacing: 2px; word-spacing: 4px;">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</article>
+			</td>
+		</tr>
+	</table>
+
+		<form id="login-form" action="#" method="GET">
+		<ul>
+			<fieldset>
+				<legend>LOGIN</legend>
+				<table class="table-form" border="0">
+					<tr>
+						<td>
+							<label for="username">Username:</label>
+						</td>
+						<td>
+							<input class="input" type="text" name="username" placeholder="username">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="password"> Password:</label>
+						</td>
+						<td>
+							<input class="input" type="password" name="password" placeholder="password">
+						</td>
+					</tr>
+				</table>
+					<input class="submit" type="submit" name="submit" value="submit">
+			</fieldset>
+		</ul>
+	</form>
+
+	<form id="register-form" action="#" method="GET">
+		<fieldset>
+			<legend>REGISTER</legend>
+				<table class="table-form" border="0">
+			<caption>CAREFULLY FILL THE FORM BELOW TO REGISTER</caption>
+					<tr>
+						<td>
+							<label for="firstname">First Name:</label>
+						</td>
+						<td>
+							<input class="input" type="text" name="firstname" placeholder="firstname">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="lastname">Last Name:</label>
+						</td>
+						<td>
+							<input class="input" type="text" name="lastname" placeholder="lastname">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="email">Email:</label>
+						</td>
+						<td>
+							<input class="input" type="email" name="email" placeholder="email">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="phone">Phone Number:</label>
+						</td>
+						<td>
+							<input class="input" type="number" name="phone" placeholder="phone number">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="country">Country:</label>
+						</td>
+						<td>
+							<input class="input" type="text" name="country" value="Nigeria" disabled>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="state">State:</label>
+						</td>
+						<td>
+							<Select class="input" type="text" name="state">
+									<option value="select state">select state</option>
+									<option value="Abia">Abia</option>
+									<option value="Adamawa">Adamawa</option>
+									<option value="Akwa-ibom">Akwa-ibom</option>
+									<option value="Anambra">Anambra</option>
+									<option value="Bauchi">Bauchi</option>
+									<option value="Bayelsa">Bayelsa</option>
+									<option value="Benue">Benue</option>
+									<option value="Borno">Borno</option>
+									<option value="Cross-river">Cross-river</option>
+									<option value="Delta">Delta</option>
+									<option value="Ebonyi">Ebonyi</option>
+									<option value="Edo">Edo</option>
+									<option value="Ekiti">Ekiti</option>
+									<option value="Enugu">Enugu</option>
+									<option value="Gombe">Gombe</option>
+									<option value="Imo">Imo</option>
+									<option value="Jigawa">Jigawa</option>
+									<option value="Kaduna">Kaduna</option>
+									<option value="Kano">Kano</option>
+									<option value="Katsina">Katsina</option>
+									<option value="Kebbi">Kebbi</option>
+									<option value="Kogi">Kogi</option>
+									<option value="Kwara">Kwara</option>
+									<option value="Lagos">Lagos</option>
+									<option value="Nassarawa">Nassarawa</option>
+									<option value="Niger">Niger</option>
+									<option value="Ondo">Ondo</option>
+									<option value="Osun">Osun</option>
+									<option value="Oyo">Oyo</option>
+									<option value="Plateau">Plateau</option>
+									<option value="Rivers">Rivers</option>
+									<option value="Sokoto">Sokoto</option>
+									<option value="Taraba">Taraba</option>
+									<option value="Yobe">Yobe</option>
+									<option value="Zamfara">Zamfara</option>
+									<option value="Abuja">Abuja</option>
+								</Select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="address">Residential Address:</label>
+						</td>
+						<td>
+							<input class="input" type="text" name="address" placeholder="address">
+						</td>
+					</tr>
+				</table>
+					<p>
+						<input id="agree" type="checkbox" name="agree">
+						<label id="terms" for="agree">
+							by checking this box you agree to our
+							<a href="#">
+								<small>
+									terms and conditions
+								</small>
+							</a>
+						</label>
+					</p>
+					<input class="submit" type="submit" name="submit" value="register">
+		</fieldset>
+	</form>
+
+	<footer>
+		<p style="color: white;">&copy;copyright.</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</footer>
+
+
+
+</body>
+</html>
